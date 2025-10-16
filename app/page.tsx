@@ -19,7 +19,7 @@ export default function Home() {
           if (entry.isIntersecting) {
             entry.target.classList.add("animate-fade-in-up")
             setActiveSection(entry.target.id)
-            observer.unobserve(entry.target) // Add this to prevent flickering
+            // observer.unobserve(entry.target) // Add this to prevent flickering
           }
         })
       },

@@ -150,14 +150,14 @@ export default function Home() {
                   liveUrl: "https://llm-pdf-chatbot-with-deepseek-v3.vercel.app/",
                   githubUrl: "https://github.com/eldavido7/LLM-PDF-Chatbot-with-Deepseek-v3-and-r1",
                 },
-                {
-                  name: "HR Assistant",
-                  description:
-                    "HR Assistant Bot using Deepseek v3. It also uses chromadb for data persistence across all file uploads and for future reference. A telegram bot (and whatsapp number) can also be generated and used to talk to the bot. Endpoints have also been provided to delete individual files from these chromadb collections, or clear out the collections entirely.",
-                  tech: ["Python", "ChromaDB", "Deepseek", "FastAPI"],
-                  liveUrl: "https://t.me/Hrlive_bot",
-                  githubUrl: "https://github.com/eldavido7/hr-assistant-backend",
-                },
+                // {
+                //   name: "HR Assistant",
+                //   description:
+                //     "HR Assistant Bot using Deepseek v3. It also uses chromadb for data persistence across all file uploads and for future reference. A telegram bot (and whatsapp number) can also be generated and used to talk to the bot. Endpoints have also been provided to delete individual files from these chromadb collections, or clear out the collections entirely.",
+                //   tech: ["Python", "ChromaDB", "Deepseek", "FastAPI"],
+                //   liveUrl: "https://t.me/Hrlive_bot",
+                //   githubUrl: "https://github.com/eldavido7/hr-assistant-backend",
+                // },
                 {
                   name: "Portfolio Tracker",
                   description: "Minimalist portfolio showcasing photography and design work with smooth animations.",
@@ -294,9 +294,9 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "GitHub", handle: "@m1medianet", url: "#" },
+                  { name: "Instagram", handle: "@m1medianet", url: "#" },
                   { name: "Twitter", handle: "@m1medianet", url: "#" },
-                  { name: "HubSpot Community", handle: "@m1medianet", url: "#" },
+                  // { name: "HubSpot Community", handle: "@m1medianet", url: "#" },
                   { name: "LinkedIn", handle: "m1medianet", url: "#" },
                 ].map((social) => (
                   <Link

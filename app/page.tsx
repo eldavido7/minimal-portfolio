@@ -273,6 +273,8 @@ export default function Home() {
                 <div className="space-y-4">
                   <Link
                     href="mailto:contact@m1media.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
                     <span className="text-base sm:text-lg">contact@m1media.net</span>

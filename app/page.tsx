@@ -78,10 +78,7 @@ export default function Home() {
 
               <div className="space-y-6 max-w-md">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  Digital agency crafting exceptional web experiences at the intersection of
-                  <span className="text-foreground"> design</span>,<span className="text-foreground"> technology</span>,
-                  and
-                  <span className="text-foreground"> innovation</span>.
+                  We craft exceptional web experiences
                 </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground">
@@ -291,7 +288,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="space-y-6 sm:space-y-8">
+            {/* <div className="space-y-6 sm:space-y-8">
               <div className="text-sm text-muted-foreground font-mono">ELSEWHERE</div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -315,7 +312,7 @@ export default function Home() {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 

@@ -139,14 +139,14 @@ export default function Home() {
 
             <div className="space-y-8 sm:space-y-12">
               {[
-                // {
-                //   name: "Smart PDF Chat",
-                //   description:
-                //     "This project is a web-based PDF question-answering chatbot powered by Deepseek v3 and R1's Language Learning Models (LLMs). Users can upload PDFs, ask questions related to the uploaded documents, and receive accurate responses.",
-                //   tech: ["React", "NextJS", "TypeScript", "Python", "ChromaDB", "Deepseek AI", "TailwindCSS"],
-                //   liveUrl: "https://llm-pdf-chatbot-with-deepseek-v3.vercel.app/",
-                //   githubUrl: "https://github.com/eldavido7/LLM-PDF-Chatbot-with-Deepseek-v3-and-r1",
-                // },
+                {
+                  name: "Smart PDF Chat",
+                  description:
+                    "This project is a web-based PDF question-answering chatbot powered by Deepseek v3 and R1's Language Learning Models (LLMs). Users can upload PDFs, ask questions related to the uploaded documents, and receive accurate responses.",
+                  tech: ["React", "NextJS", "TypeScript", "Python", "ChromaDB", "Deepseek AI", "TailwindCSS"],
+                  liveUrl: "https://llm-pdf-chatbot-with-deepseek-v3.vercel.app/",
+                  githubUrl: "https://github.com/eldavido7/LLM-PDF-Chatbot-with-Deepseek-v3-and-r1",
+                },
                 // {
                 //   name: "HR Assistant",
                 //   description:

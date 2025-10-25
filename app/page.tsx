@@ -162,14 +162,14 @@ export default function Home() {
                   liveUrl: "https://portfolio-data-structure.vercel.app",
                   githubUrl: "https://github.com/eldavido7/portfolio-tracker",
                 },
-                {
-                  name: "Halamin Herbal Store/Admin Dashboard",
-                  description:
-                    "Halamin Herbal is a full-featured herbal products eCommerce system built with Next.js, Prisma, PostgreSQL, Neon, Cloudinary, and Paystack. It includes a powerful admin dashboard and a lightweight public storefront. Customers can place orders and receive real-time email updates as their order progresses.",
-                  tech: ["React", "NextJS", "PostgreSQL", "TypeScript", "TailwindCSS", "Cloudinary", "Prisma"],
-                  liveUrl: "https://halaminherbal.vercel.app/",
-                  githubUrl: "https://github.com/eldavido7/ecommerce-dashboard",
-                },
+                // {
+                //   name: "Halamin Herbal Store/Admin Dashboard",
+                //   description:
+                //     "Halamin Herbal is a full-featured herbal products eCommerce system built with Next.js, Prisma, PostgreSQL, Neon, Cloudinary, and Paystack. It includes a powerful admin dashboard and a lightweight public storefront. Customers can place orders and receive real-time email updates as their order progresses.",
+                //   tech: ["React", "NextJS", "PostgreSQL", "TypeScript", "TailwindCSS", "Cloudinary", "Prisma"],
+                //   liveUrl: "https://halaminherbal.vercel.app/",
+                //   githubUrl: "https://github.com/eldavido7/ecommerce-dashboard",
+                // },
                 {
                   name: "Ride Along Android App",
                   description:

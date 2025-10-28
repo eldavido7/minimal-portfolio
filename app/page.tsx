@@ -157,7 +157,7 @@ export default function Home() {
                 // },
                 {
                   name: "Portfolio Tracker",
-                  description: "Minimalist portfolio showcasing photography and design work with smooth animations.",
+                  description: "This is a modern, responsive web application designed to help users manage and monitor their investment portfolios.",
                   tech: ["NextJS", "React", "Typescript", "PostgreSQL", "TailwindCSS", "Prisma"],
                   liveUrl: "https://portfolio-data-structure.vercel.app",
                   githubUrl: "https://github.com/eldavido7/portfolio-tracker",

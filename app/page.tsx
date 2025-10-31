@@ -147,14 +147,14 @@ export default function Home() {
                   liveUrl: "https://llm-pdf-chatbot-with-deepseek-v3.vercel.app/",
                   githubUrl: "https://github.com/eldavido7/LLM-PDF-Chatbot-with-Deepseek-v3-and-r1",
                 },
-                // {
-                //   name: "HR Assistant",
-                //   description:
-                //     "HR Assistant Bot using Deepseek v3. It also uses chromadb for data persistence across all file uploads and for future reference. A telegram bot (and whatsapp number) can also be generated and used to talk to the bot. Endpoints have also been provided to delete individual files from these chromadb collections, or clear out the collections entirely.",
-                //   tech: ["Python", "ChromaDB", "Deepseek", "FastAPI"],
-                //   liveUrl: "https://t.me/Hrlive_bot",
-                //   githubUrl: "https://github.com/eldavido7/hr-assistant-backend",
-                // },
+                {
+                  name: "NIMC Bot",
+                  description:
+                    "NIMC Bot using Deepseek v3. It allows users to interact with NIMC-related information through a chatbot interface on Telegram. The bot leverages Deepseek's capabilities to provide accurate and relevant responses to user queries about NIMC services, processes, and general information.",
+                  tech: ["NextJS", "TypeScript", "PostgreSQL", "Deepseek", "Telegram"],
+                  liveUrl: "https://t.me/nimcai_bot",
+                  githubUrl: "https://github.com/DavidAwarri/nimc-bot",
+                },
                 {
                   name: "Portfolio Tracker",
                   description: "This is a modern, responsive web application designed to help users manage and monitor their investment portfolios.",
